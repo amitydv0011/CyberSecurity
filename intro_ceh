@@ -1,0 +1,18 @@
+___----------------------Information Security Triangle or CIA Trait and Non-Repudiation----------------------------
+		- **Confidentiality**
+			- Confidentiality :-  Ensures that Information is only accessible by right person i.e. only Authorized person can saee the information. Protection from unauthorized access. Confidentiality is ensured by implementing Authentication Checks (User Name and Password), Captcha (Mitigate Brute-force and prevent from Bots), etc. Confidential info should be stored in private offline storage and keep in a safe place, or encrypt data if possible.
+			- Popular attacks affecting confidentiality : Data Breaches, Card Skimming, Keylogging, Phishing, Dumpster Diving, etc.
+		- **Integrity**
+			- Integrity Ensures that Information can only tempered by Authorized by person or it should not be tempered by unauthorized person. Info. either in rest or transit should not be tempered. Integrity is ensured by Encryption, double-triple Encoding, Hashing, salted hashing, MAC (Message Authentication Code), or we can say with the help of Cryptography.
+			- Popular Attacks affecting Integrity : MITM, Packet sniffing, etc
+		- **Availability**
+		 	- Availability ensures that Info. is only available to the right person at the right time, i.e. whenever the info. is requested it should be available.
+ Assurance that the systems responsible for delivering, storing, and processing information are accessible when required by the authorized users.
+			- Popular Attacks Affecting Availability : DOS, DDOS, human error , software failure  etc.
+		- **Non-Repudiation**
+		 	- Non-Repudiation ensures that Person A or Person B can't deny for action performed or happened on there side. For Example, suppose Person A send Money to Person B, so person B can't say money was never received. Like we have proof (Bank Statement, Account Balance Increment, Balance Deduction on Person A's side).
+		- FireEye Data Breach --> https://malicious.life/episode/episode-101/
+A
+
+H
+
