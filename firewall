@@ -1,0 +1,25 @@
+Uncomplicated Firewall (UFW) is a Linux application that manages netfilter firewalls using a command-line interface (CLI).           
+
+            How to configure a Firewall:
+            
+            sudo apt install ufw  - To install the ufw firewall.             
+
+            sudo ufw app list   - List of applications that allows firewall services.
+
+            sudo ufw status    -  To know the status of the firewall (Status: inactive, active)
+
+            sudo ufw enable    -  To enable the firewall
+
+            sudo ufw status verbose  - To show the firewall rules
+
+            sudo ufw allow 80/tcp   -  To allow tcp(port 80) services
+            
+            sudo ufw status numbered  - To show the firewall rules number-wise( To show the Firewall-list)
+
+            sudo ufw allow 21:100/tcp (range from 21 to 100) - To allow the range of services  
+
+            sudo ufw allow from 192.168.1.1 (IP Address)    -  To allow certain ip address by firewall
+
+            sudo ufw allow deny 192.168.1.1 (IP Address)    -  To deny certain ip address by firewall
+
+            sudo ufw delete Number(Eg:4)-  To delete a certain rule of firewall from the firewall list
