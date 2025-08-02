@@ -23,3 +23,31 @@ Uncomplicated Firewall (UFW) is a Linux application that manages netfilter firew
             sudo ufw allow deny 192.168.1.1 (IP Address)    -  To deny certain ip address by firewall
 
             sudo ufw delete Number(Eg:4)-  To delete a certain rule of firewall from the firewall list
+
+
+
+
+Basic Commands for firewalld:-
+Check Firewall Status: sudo firewall-cmd --state (or sudo systemctl status firewalld) 
+Start firewalld: sudo systemctl start firewalld 
+Enable firewalld on boot: sudo systemctl enable firewalld 
+List Zones: sudo firewall-cmd --get-zones 
+List Active Zones: sudo firewall-cmd --get-active-zones 
+List Services: sudo firewall-cmd --get-services 
+Add a service (runtime): sudo firewall-cmd --add-service=<service_name> (e.g., sudo firewall-cmd --add-service=http) 
+Add a service (permanent): sudo firewall-cmd --permanent --add-service=<service_name> 
+Remove a service (runtime): sudo firewall-cmd --remove-service=<service_name> 
+Remove a service (permanent): sudo firewall-cmd --permanent --remove-service=<service_name> 
+Add a port (runtime): sudo firewall-cmd --add-port=<port_number>/<protocol> (e.g., sudo firewall-cmd --add-port=8080/tcp) 
+Add a port (permanent): sudo firewall-cmd --permanent --add-port=<port_number>/<protocol> 
+Remove a port (runtime): sudo firewall-cmd --remove-port=<port_number>/<protocol> 
+Remove a port (permanent): sudo firewall-cmd --permanent --remove-port=<port_number>/<protocol> 
+Reload Firewall: sudo firewall-cmd --reload (required to apply permanent changes) 
+Get Default Zone: sudo firewall-cmd --get-default-zone 
+Set Default Zone: sudo firewall-cmd --set-default-zone=<zone_name> 
+List Rich Rules: sudo firewall-cmd --list-rich-rules
+Examples
+To allow SSH traffic permanently: sudo firewall-cmd --permanent --add-service=ssh 
+To open port 80 (HTTP) permanently: sudo firewall-cmd --permanent --add-port=80/tcp 
+To allow access to a specific IP address (runtime): sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="192.168.1.100" accept' 
+To permanently block an IP address: sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192.168.1.200" reject'
