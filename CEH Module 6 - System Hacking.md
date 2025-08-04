@@ -38,7 +38,7 @@
 		- Shoulder-Surfing
 		- Dumpster-Diving
 		- Eaves-Dropping
-		- Vishing   --->
+		- Vishing   
 
 	# Active Online Attack - Directly interact with the target for cracking password.
 		- Dictionary/Wordlist Attack - In Dictionary Attack, Attacker Use Preconfigured wordlist (For Username or Password) to gain access into victims account.
