@@ -16,7 +16,7 @@ Passive Attack(recon) :- Passive recon involves information gathering about the 
 
 			- WHOIS - WHOIS give us info about Domain like when registered, expiry, owner, etc.
                                     whoislokup,whoisrecord , Ip2location, ip2whois
-  ________------------_______________------_____________________------------
+  ________------------_______________------_____________________-------------_____
 
 TLDS :- Sublister,subfinder,urlcrazy,dig,DnsRecon,Findsub Domains 
    dig = Domain Information Groper. It is used for retrieving information about DNS name servers
