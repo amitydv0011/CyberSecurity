@@ -42,4 +42,29 @@ The data should be available to the user whenever the user requires it. Maintain
 
 19. What are the different layers of the OSI model?
 An OSI model is a reference model for how applications communicate over a network. The purpose of an OSI reference is to guide vendors and developers so the digital communication products and software programs can interoperate.
+(vii) Physical Layer: Responsible for transmission of digital data from sender to receiver through the communication media,
+
+(vi) Data Link Layer: Handles the movement of data to and from the physical link. It is also responsible for encoding and decoding of data bits.
+
+(v) Network Layer: Responsible for packet forwarding and providing routing paths for network communication.
+
+(iv) Transport Layer: Responsible for end-to-end communication over the network. It splits the data from the above layer and passes it to the Network Layer and then ensures that all the data has successfully reached at the receiver’s end.
+
+(iii) Session Layer: Controls connection between the sender and the receiver. It is responsible for starting, ending, and managing the session and establishing, maintaining and synchronizing interaction between the sender and the receiver.
+
+(ii) Presentation Layer: It deals with presenting the data in a proper format and data structure instead of sending raw datagrams or packets.
+
+(i) Application Layer: It provides an interface between the application and the network. It focuses on process-to-process communication and provides a communication interface.
+
+39. Explain Phishing and how to prevent it?
+Phishing is a Cyberattack in which a hacker disguises as a trustworthy person or business and attempt to steal sensitive financial or personal information through fraudulent email or instant message.
+ creat a instagram phising link and send the target. 
+You can prevent Phishing attacks by using the following practices:
+
+Don’t enter sensitive information in the webpages that you don’t trust
+Verify the site’s security
+Use Firewalls
+Use AntiVirus Software that has Internet Security
+Use Anti-Phishing Toolbar
+
 
