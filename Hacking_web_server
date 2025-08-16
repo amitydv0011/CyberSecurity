@@ -1,0 +1,24 @@
+# Web Server
+Web Servers are the programs that are used for hosting services.
+Web Servers are deployed on a separate web server hardware or installed on a host as a program.
+It delivers content over **Hyper Text Transfer Protocol** (HTTP).
+Web Servers support different types of application extensions whereas all of the support **Hypertext Markup Language** (HTML).
+
+# Web Server Security Issue
+Web server vulnerabilities:
+  - Improper permission of file directories
+  - Default configurations
+  - Enabling unnecessary services
+  - Lack of security
+  - Bugs
+  - Misconfigured SSL certificate - Drown Attack
+  - Enabled debugging
+
+# Open Source Web Servers
+  - Apache HTTP Server
+  - Nginx
+  - Apache Tomcat
+
+# Web Server Attacks
+  # DoS/DDoS
+  # DNS Server Hijacking
