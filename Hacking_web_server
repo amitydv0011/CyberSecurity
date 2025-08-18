@@ -84,3 +84,8 @@ Tools:
 
 # Patch Management
 **Patch Management** is an automated process to detect missing security patches, find out solutions, download patch, test the patch in an isolated environment then deploy the patch onto the systems.
+
+
+
+tools :-
+     ---httprecon,endoflife,idserver,winHTTrack,web scraper.
