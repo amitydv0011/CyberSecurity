@@ -11,7 +11,7 @@ Passive Attack(recon) :- Passive recon involves information gathering about the 
 		Methods:
 			- Public Emails - Email Addresses available on Webpages.
   Email Foot Printing:-
-   Email Tracking Tool, Get email.io ,email hunter... 
+   Email Tracking Tool, Get email.io ,email hunter
    GetEmail.io finds the Email Address Of Anyone on Earth
 
 			- WHOIS - WHOIS give us info about Domain like when registered, expiry, owner, etc.
