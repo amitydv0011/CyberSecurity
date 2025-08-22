@@ -28,7 +28,7 @@
 # Characteristics of Secure password:
 	- In Case sensitive letters
 	- Special characters
-	- Numbers
+	- Numbers(1,2,.........)
 	- Lengthy password/Pin (more than 8 character)
 	- Pass-Phrases
 ------------------------------------------------
