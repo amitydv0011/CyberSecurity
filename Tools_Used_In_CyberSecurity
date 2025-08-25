@@ -1,1 +1,46 @@
+Information Gathering Tools in Cybersecurity
+1. Network Scanning & Enumeration
 
+Nmap → Scans open ports, services, versions.
+
+Zenmap → GUI version of Nmap.
+
+Masscan → Ultra-fast port scanner.
+
+Unicornscan → Asynchronous port scanning.
+
+Netcat (nc) → Banner grabbing, port scanning, reverse shell.
+
+2. DNS & Domain Information
+
+Whois → Domain ownership details.
+
+Nslookup / Dig → DNS records lookup.
+
+DNSenum → DNS enumeration.
+
+Fierce → Domain reconnaissance tool.
+
+Sublist3r → Subdomain enumeration.
+
+3. Web Information Gathering
+
+WhatWeb → Identifies websites, frameworks, and technologies.
+
+Wappalyzer → Browser extension for tech fingerprinting.
+
+Dirb / Gobuster → Directory brute forcing.
+
+Burp Suite (Community/Pro) → Web vulnerability scanner & proxy.
+
+Nikto → Web server scanning for vulnerabilities.
+
+4. Email & People Search (OSINT)
+
+theHarvester → Gathers emails, subdomains, hosts, etc. from public sources.
+
+Maltego → Relationship mapping (people, companies, domains).
+
+Recon-ng → Powerful OSINT framework.
+
+Hunter.io → Finds email addresses from domains.
