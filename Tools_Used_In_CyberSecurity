@@ -27,6 +27,15 @@ Sublist3r → Subdomain enumeration.
 
 WhatWeb → Identifies websites, frameworks, and technologies.
 
+4. Brute Force & Dictionary Attacks
+Hydra → Brute-force login tool (works on many protocols).
+Crunch → Creates custom password lists for Wi-Fi cracking.
+
+
+5.Specialized Wi-Fi Tools
+Reaver → Exploits WPS (Wi-Fi Protected Setup) to crack WPA/WPA2.
+Fern Wi-Fi Cracker → GUI-based wireless auditing tool.
+Cowpatty → WPA-PSK brute force tool.
 Wappalyzer → Browser extension for tech fingerprinting.
 
 Dirb / Gobuster → Directory brute forcing.
