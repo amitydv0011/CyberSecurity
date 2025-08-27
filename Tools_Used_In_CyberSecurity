@@ -51,5 +51,37 @@ theHarvester → Gathers emails, subdomains, hosts, etc. from public sources.
 Maltego → Relationship mapping (people, companies, domains).
 
 Recon-ng → Powerful OSINT framework.
-
 Hunter.io → Finds email addresses from domains.
+
+
+
+Nmaps commands:-
+🔹 1. Scan a single host
+nmap 192.168.1.1
+
+🔹 2. Scan multiple hosts
+nmap 192.168.1.1 192.168.1.2
+
+🔹 3. Scan a range of IPs
+nmap 192.168.1.1-20
+
+🔹 4. Scan an entire network
+nmap 192.168.1.0/24
+
+🔹 5. Scan specific port
+nmap -p 80 192.168.1.1
+
+🔹 6. Scan range of ports
+nmap -p 1-1000 192.168.1.1
+
+🔹 7. Service version detection
+nmap -sV 192.168.1.1
+
+🔹 8. Detect operating system
+nmap -O 192.168.1.1
+
+🔹 9. Aggressive scan (OS + services + traceroute)
+nmap -A 192.168.1.1
+
+🔹 10. Stealth (SYN) scan
+sudo nmap -sS 192.168.1.1
