@@ -15,7 +15,7 @@
 
 
 # Methods for System Hacking
-	- Cracking Password :- 
+	- Cracking Password
 	- Exploit Services, Application Installed, OS
 	- Malicious Applications
 -------------------------------------------------------------------------------------------------
