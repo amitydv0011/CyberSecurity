@@ -8,6 +8,7 @@ Zenmap → GUI version of Nmap.
 Masscan → Ultra-fast port scanner.
 
 Unicornscan → Asynchronous port scanning.
+ghost_eye -> use information gathering.
 
 Netcat (nc) → Banner grabbing, port scanning, reverse shell.
 
