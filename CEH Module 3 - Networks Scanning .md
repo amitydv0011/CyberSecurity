@@ -109,7 +109,7 @@ target url :- nmap , lsb ,
 		hping3 --udp <ip> --verbose									UDP port Scan in Verbose
 --------------------------------------------------------------------------
 # k3. OS Detection
-		nmap -O <ip>																OS Detection with Nmap
+		nmap -O <ip address>																OS Detection with Nmap
 --------------------------------------------------------------------------
 # k4. Security Implemented (Firewall, IDS, IPS) Detection and evasion
 		nmap -f <ip>								-f will fragment packets in 8-byte packets. Helpful when
