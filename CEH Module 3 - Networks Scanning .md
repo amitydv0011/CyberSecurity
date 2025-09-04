@@ -1,5 +1,5 @@
-Network scanning :-  hosts , ports, services :- 
-target url :- nmap , lsb , 
+Network scanning :-  hosts , ports, services
+target url :- nmap , lsb  
 
 
 
