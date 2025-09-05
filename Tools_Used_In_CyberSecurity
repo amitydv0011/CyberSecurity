@@ -86,3 +86,60 @@ nmap -A 192.168.1.1
 
 🔹 10. Stealth (SYN) scan
 sudo nmap -sS 192.168.1.1
+
+
+Popular SQL Injection Tools
+1. sqlmap (Most Popular)
+
+An open-source penetration testing tool that automates SQL Injection detection and exploitation.
+
+Supports union, error-based, boolean-based, time-based, and out-of-band SQLi.
+
+Can enumerate databases, dump tables, crack hashes, and even get a remote shell.
+
+Example command:
+
+sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" --dbs
+
+
+ Finds if the parameter cat is injectable and lists databases.
+
+2. Havij (GUI Based – Windows)
+
+Old but famous automated SQLi tool with a graphical interface.
+
+Can extract database info, tables, users, and even write files on the server.
+
+Easy for beginners, but less used now (detected by most security systems).
+
+3. jSQL Injection (Java Based)
+
+Open-source GUI tool.
+
+Supports multiple databases (MySQL, Oracle, PostgreSQL, MSSQL, etc.).
+
+Can dump data, read files, write shell, etc.
+
+4. NoSQLMap
+
+Used for testing NoSQL injection (MongoDB, CouchDB).
+
+Similar to sqlmap but for NoSQL databases.
+
+5. BBQSQL (Python Library)
+
+A blind SQL injection exploitation framework.
+
+Useful when you can’t directly see query results (blind SQLi).
+
+6. SQLNinja
+
+Targets MSSQL (Microsoft SQL Server).
+
+Exploits SQLi to gain DB access and potentially system access.
+
+7. Exploit Frameworks with SQLi Modules
+
+Metasploit Framework → has auxiliary modules for SQLi testing.
+
+Burp Suite (Pro) → scanner can detect SQL injection automatically
