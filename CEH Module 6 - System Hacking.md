@@ -11,9 +11,6 @@
 			Maintain Access by Creating backdoor, installing Rootkit, Trojan, etc)
 		- **Clearing Traces/Logs**
 			Clear Footprints like connection established, Activities performed) Clear Date defining Hackers Identity
-
-
-
 # Methods for System Hacking
 	- Cracking Password
 	- Exploit Services, Application Installed, OS
