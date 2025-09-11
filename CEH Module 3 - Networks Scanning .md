@@ -165,8 +165,6 @@ Null , Fin , xmas
 -sX (xmas)
 
 Time Tecq
-
-
 T0 - Paranoid
 T1 - Sneaky
 T2 - Polite
