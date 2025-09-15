@@ -69,9 +69,6 @@ sqlmap =   sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=1 --dbs
 - Identify privilege level of users
 - Passwords and hashes grabbing
 - Transfer database to a remote machine
-
-## Evasion Techniques
-
 ### Evading IDS
 
 - Inserting inline comment in between keywords
