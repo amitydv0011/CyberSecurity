@@ -64,13 +64,12 @@ sqlmap =   sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=1 --dbs
 - Select the appropriate type of SQL Injection, based on the gathered information
 
 ## Advanced SQL Injection
-
 - Enumerate the database (Postgre, MySQL, Oracle, ...)
 - Identify privilege level of users
 - Passwords and hashes grabbing
 - Transfer database to a remote machine
+  
 ### Evading IDS
-
 - Inserting inline comment in between keywords
 - Character encoding
 - String Concatenation
@@ -80,7 +79,6 @@ sqlmap =   sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=1 --dbs
 - Sophisticated matches
 
 ## Countermeasures
-
 - Penetration testing (manual, with tool)
 - Source code analysis
 - Wep Application Firewall (WAF)
