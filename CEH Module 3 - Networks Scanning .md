@@ -7,11 +7,11 @@ target url :- nmap , lsb
 	- TCP and UDP (Transmission Control Protocol and User Datagram Protocol) are communications protocol that facilitate the exchange of message (in form of Packets) between computer devices in a network. These protocols decide how packet will reach the destination. 65535
 		**TCP** 																		**UDP**
 		- Connection Oriented Protocol												- Connection Less protocol
-		- Provides Error checking															- No Error Checking Mechanism
-		- Guarantees Delivery of Data													- No Guarantees of Data Delivery
-		- Slower and less efficient for fast transmission		                                                 	- Faster Transmission
-		- All Packets follow the same path										            - Packets can follow any path to reach destination       HTTP3 (QUIC , UDP )
-		- Automimic Retransmission possible  								                	- Retransmission is not possible
+		- Provides Error checking													- No Error Checking Mechanism
+		- Guarantees Delivery of Data												- No Guarantees of Data Delivery
+		- Slower and less efficient for fast transmission		                     - Faster Transmission
+		- All Packets follow the same path										     - Packets can follow any path to reach destination       HTTP3 (QUIC , UDP )
+		- Automimic Retransmission possible  								         - Retransmission is not possible
 			in case of Packets loss
 ---------------------------------------------------
 ## TCP Flags:
