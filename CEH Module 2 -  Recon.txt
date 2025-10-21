@@ -5,7 +5,7 @@
 
 Active Recon :- Active recon is a technique used in  hacking involves  gathering information about the target with direct interaction. The goal of active reconnaissance is to identify vulnerabilities in the target system that can be exploited in a cyberattack.
 
-###############- Passive Footprinting : Collect info without direct interaction
+################- Passive Footprinting : Collect info without direct interaction
 
 Passive Attack(recon) :- Passive recon involves information gathering about the target without direct interaction. It is mainaly useful when the information gathering activities are not to be detected by the target .
 		Methods:
