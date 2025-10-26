@@ -1,5 +1,4 @@
 
-
 #K8). Phases of Hacking or how to successfully hack into system
 		- **Reconnaissance**            
 			Active = Acquiring Info with interacting with Target Directly.
