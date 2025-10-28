@@ -1,6 +1,7 @@
 # Foot printing & Reconnaissance.
 	Collecting info regarding internal and external security architecture. Foot printing and Recon help attacker to reduce focus area and bring closer to the target. Collect information about a target network.
-	
+
+
 #################-Active Foot printing : Collect info with Direct interaction
 
 Active Recon :- Active recon is a technique used in  hacking involves  gathering information about the target with direct interaction. The goal of active reconnaissance is to identify vulnerabilities in the target system that can be exploited in a cyberattack.
