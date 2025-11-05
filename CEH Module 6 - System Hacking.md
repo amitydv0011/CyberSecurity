@@ -1,8 +1,8 @@
 #K8). Phases of Hacking or how to successfully hack into system
-		- **Reconnaissance**            
+		 - **Reconnaissance**            
 			Active = Acquiring Info with interacting with Target Directly.
 			Passive = Gain Info by Acquiring the target Indirectly. (Via Calls, Emails, help Desk or Technical Department)
-		- **Scanning** nmap , hping 3
+		 - **Scanning** nmap , hping 3
 			Scan IP's for Open Ports and Possible Vulnerabilities like Older version of OS, Running Services .
 		- **Gaining Access**
 			Attacker Gain Access by found Vulnerabilities in Scanning Phase (By Password Cracking, Insecure Authentication, Buffer Overflow, Etc)
