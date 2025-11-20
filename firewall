@@ -51,3 +51,23 @@ Basic Commands for firewalld:-
      To open port 80 (HTTP) permanently: sudo firewall-cmd --permanent --add-port=80/tcp 
      To allow access to a specific IP address (runtime): sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="192.168.1.100" accept' 
      To permanently block an IP address: sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192.168.1.200" reject'
+
+
+
+
+types of firewalls:-
+     Firewalls	            Characteristics
+-Stateless firewalls	            - Basic filtering
+                                    - No track of previous connections
+                                    - Efficient for high-speed networks
+-Stateful firewalls	            - Recognize traffic by patterns
+                                    - Complex rules can be applicable
+                                    - Monitor the network connections
+-Proxy firewalls	            - Inspect the data inside the packets as well
+                                    - Provides content filtering options
+                                    - Provides application control
+                                    - Decrypts and inspects SSL/TLS data packets
+-Next-generation firewalls	- Provides advanced threat protection
+                                    - Comes with an intrusion prevention system
+                                    - Identify anomalies based on heuristic analysis
+                                    - Decrypts and inspects SSL/TLS data packets
