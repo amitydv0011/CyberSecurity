@@ -30,9 +30,11 @@ Destruction/Denial: Consider the case where a medical facility has gone complete
 
  we will introduce three foundational security models:
 
-Bell-LaPadula Model
-The Biba Integrity Model
-The Clark-Wilson Model
+--Bell-LaPadula Model
+--The Biba Integrity Model
+--The Clark-Wilson Model
+
+
 Bell-LaPadula Model
 The Bell-LaPadula Model aims to achieve confidentiality by specifying three rules:
 
