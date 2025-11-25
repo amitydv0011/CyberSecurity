@@ -28,6 +28,8 @@ Alteration: Consider the gravity of the situation if the attacker manages to mod
 Destruction/Denial: Consider the case where a medical facility has gone completely paperless. If an attacker manages to make the database systems unavailable, the facility will not be able to function properly. They can go back to paper temporarily; however, the patient records won’t be available. This denial attack would stall the whole facility.
 
 
+
+
  we will introduce three foundational security models:
 
 --Bell-LaPadula Model
