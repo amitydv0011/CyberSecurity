@@ -1,7 +1,6 @@
 Uncomplicated Firewall (UFW) is a Linux application that manages netfilter firewalls using a command-line interface (CLI).           
 
 
-
 How to configure a Firewall:
             
             sudo apt install ufw  - To install the ufw firewall.             
