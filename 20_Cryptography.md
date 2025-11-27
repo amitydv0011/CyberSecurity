@@ -4,7 +4,7 @@ Cryptography is the process of hiding or coding information so that only the per
   ~~~~~~~Encryption
 Encryption is the process of converting plain text into cipher text using a secret key or algorithm. Encryption is used to protect sensitive information, such as passwords or credit card numbers, by making it unreadable to unauthorized parties. The cipher text can only be decrypted using the corresponding key or algorithm, which is kept secret. Encryption provides confidentiality, but not integrity or authenticity.
   Encryption is the process of translating plain text data (plaintext) into something that appears to be random and meaningless (ciphertext). Decryption is the process of converting ciphertext back to plaintext
-   
+
  ~~~~~~~~~ What is Hashing?
 Hashing is a one-way process where data is transformed into a fixed length alphanumeric string. This string is known as a hash or message digest. A hash cannot be reversed back to the original data because it is a one-way operation. Hashing is commonly used to verify the integrity of data, commonly referred to as a checksum. If two pieces of identical data are hashed using the same hash function, the resulting hash will be identical. If the two pieces of data are different, the resulting hashes will be different and unique.
   # Hashing
