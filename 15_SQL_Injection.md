@@ -11,6 +11,7 @@ Bypassing authentication, Revealing sensitive information, Compromise data integ
 **SQL** stands for **S**tructured **Q**uery **L**anguage.
 
 
+
 # Types of SQL Injection
   # **In-Band SQL Injection**
     Use the same communication channel to launch the attack and get the result.
