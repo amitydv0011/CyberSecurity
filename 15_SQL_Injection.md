@@ -7,7 +7,6 @@ Bypassing authentication, Revealing sensitive information, Compromise data integ
   - sqlmap
 
 
-
 # SQL
 **SQL** stands for **S**tructured **Q**uery **L**anguage.
 
