@@ -1,5 +1,5 @@
 SQL injection is to reveal or manipulate sensitive information from the database by injecting commands into existing queries.
-   TYPES :- Union Based , Blind Based , Boolean Based , Error based
+ TYPES :- Union Based , Blind Based , Boolean Based , Error based
 Bypassing authentication, Revealing sensitive information, Compromise data integrity, Erase database.
 
 
