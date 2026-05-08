@@ -4,7 +4,6 @@ Bypassing authentication, Revealing sensitive information, Compromise data integ
 
 
 
-
 # Tools
   - sqlmap.
 
