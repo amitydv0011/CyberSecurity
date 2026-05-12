@@ -3,7 +3,6 @@ SQL injection is to reveal or manipulate sensitive information from the database
 Bypassing authentication, Revealing sensitive information, Compromise data integrity, Erase database.
 
 
-
 # Tools
   - sqlmap.
 
